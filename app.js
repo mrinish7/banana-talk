@@ -13,7 +13,7 @@ function errorHandler(error) {
     alert("something is wrong with the server! please try again later")
 }
 
-function clickHandler() {-
+function clickHandler() {
     var inputText = txtInput.value;
     
     fetch(getTranslationURL(inputText))
